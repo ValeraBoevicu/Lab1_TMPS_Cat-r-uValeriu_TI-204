@@ -1,15 +1,15 @@
 # LAB1_TMPS- Calendar App in Python
 ## Taks:Build an app where use all the solid principles.
 ## Theory about all the principles:
-### *The idea behind the SRP is that every class, module, or function in a program should have one responsibility/purpose in a program.
+### * The idea behind the SRP is that every class, module, or function in a program should have one responsibility/purpose in a program.
 
-### The open-closed principle states that software entities should be open for extension, but closed for modification.
+### * The open-closed principle states that software entities should be open for extension, but closed for modification.
 
-### The Liskov substitution principle when an instance of a class is passed/extended to another class, the inheriting class should have a use case for all the properties and behavior of the inherited class.
+### * The Liskov substitution principle when an instance of a class is passed/extended to another class, the inheriting class should have a use case for all the properties and behavior of the inherited class.
 
-### The interface segregation principle states that the interface of a program should be split in a way that the user/client would only have access to the necessary methods related to their needs.
+### * The interface segregation principle states that the interface of a program should be split in a way that the user/client would only have access to the necessary methods related to their needs.
 
-### The Dependency Inversion Principle it is understood that High-level modules should not import anything from low-level modules.
+### * The Dependency Inversion Principle it is understood that High-level modules should not import anything from low-level modules.
 
 ### 1 Single Responsability Principle:
 - Event class is responsible for holding event data.
