@@ -1,7 +1,7 @@
 # LAB1_TMPS- Calendar App in Python
 ## Taks:Build an app where use all the solid principles.
 ## Theory about all the principles:
-### The idea behind the SRP is that every class, module, or function in a program should have one responsibility/purpose in a program.
+### *The idea behind the SRP is that every class, module, or function in a program should have one responsibility/purpose in a program.
 
 ### The open-closed principle states that software entities should be open for extension, but closed for modification.
 
