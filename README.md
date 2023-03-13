@@ -11,7 +11,7 @@
 
 ### * The Dependency Inversion Principle it is understood that High-level modules should not import anything from low-level modules.
 
-### 1 Single Responsability Principle:
+### 1. Single Responsability Principle:
 - Event class is responsible for holding event data.
 ```
 class Event:
@@ -56,7 +56,7 @@ class DateRange:
             yield current_date
             current_date += timedelta(days=1)
 ```
-### 2 The open-closed principle:
+### 2. The open-closed principle:
 - The code is open for extension through the use of abstract classes and interfaces, such as CalendarService.
 - The MonthlyReportGenerator class can be extended to generate different types of reports without modifying the existing code.
 ```
@@ -87,12 +87,12 @@ if __name__ == "__main__":
     report = report_generator.generate_report(3, 2023)
     print(report)
 ```
-### 3 The Liskov substitution principle:
+### 3. The Liskov substitution principle:
 - The InMemoryCalendarService class is a subtype of CalendarService, and can be used anywhere CalendarService is expected.
 ```
 class InMemoryCalendarService(CalendarService):
 ```
-### 4 The interface segregation principle:
+### 4. The interface segregation principle:
 - CalendarService interface is segregated into two methods: add_event and get_events.
 ```
  def add_event(self, event: Event) -> None:
@@ -113,7 +113,7 @@ class MonthlyReportGenerator:
         end_date = start_date.replace(day=28) + timedelta(days=4)
         end_date = end_date - timedelta(days=end_date.day)
 ```
-### 5 The Dependency Inversion Principle:
+### 5. The Dependency Inversion Principle:
 - The Calendar class depends on an abstraction (CalendarService) instead of a concrete implementation (InMemoryCalendarService).
 ```
 class Calendar:
